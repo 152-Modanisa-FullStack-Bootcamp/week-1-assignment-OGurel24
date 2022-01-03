@@ -1,4 +1,34 @@
-h1 {
-  color: hotpink;
-  font-family: cursive;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #bf4f47;
+}
+body {
+  display: flex;
+}
+form {
+  margin: auto;
+  width: 70%;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-style: solid;
+  border-width: 130px 50px 80px 40px;
+  border-color: purple;
+}
+#submit{
+  color: aliceblue;
+  background-color: blue;
+  border-radius: 5px;
+}
+
+#signup{
+  color:blue
+}
+
+#forget{
+  font-style: italic;
 }
