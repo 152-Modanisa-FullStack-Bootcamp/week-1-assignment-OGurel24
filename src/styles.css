@@ -1,4 +1,36 @@
-h1 {
-  color: hotpink;
-  font-family: cursive;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #bf4f47;
+}
+body {
+  display: flex;
+}
+
+#post{
+  background-color:white;
+  padding: 20px;
+  margin:10px;
+  border-radius: 10px;
+}
+
+#post-hader{
+  display: flex;
+  margin:10px;
+}
+
+#post-info{
+  margin-left: 10px;
+}
+
+#post-info >p {
+  font-size: 10px;
+  color: gray;
+}
+
+#post-header > h2 {
+  font-size: 10px;
+  color: gray;
 }
