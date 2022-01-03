@@ -37,7 +37,8 @@ axios
     // Position of image and text is up to you
     // You can use any style you wish
     mappedProducts.forEach(product =>{
-      document.body.textContent += product.name ;
-      //document.body.textContent += product.image;
+      document.body.innerHTML += `<p>${product.name}</p>` ;
+      document.body.innerHTML += `<img src="${product.image}" alt="Product Picture">`
+
     })
   });
